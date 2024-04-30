@@ -1,0 +1,262 @@
+<html>
+  <head><title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    
+    <!-- <link rel="stylesheet" href="style.css"> --></head><style>
+      body{
+    /* background-color: #222; */
+    background-image:linear-gradient(rgb(191, 195, 193),rgb(207, 197, 197),rgb(208, 218, 215))
+    ;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    /* height: 100vh; */
+    /* width: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.im{
+    position: absolute;
+    top: 148px;
+    /* width: 70%; */
+    width: 600px;
+    /* max-width:900px; */
+   margin-left: -100px;
+   height: 400px;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(241, 217, 208, 0.8),rgba(188, 108, 136, 0.8));
+    /* opacity: 0.4; */
+    /* border:2px solid white; */
+    /* box-shadow: inset 0 5px 1px rgba(246, 242, 242, 0.35),
+    0 5px 5px rgba(251, 251, 251, 0.5),
+    0 15px 25px rgba(239, 231, 231, 0.35); */
+    /* height: 100vh; */
+    background-size: cover;
+    /* z-index: -1; */
+    background-position: center;
+    border-radius: 50px;
+    text-align: center;
+    color: white;
+    
+    /* box-shadow: 10 10px 10px rgba(0,0,0,0.8); */
+}
+h1{
+    position: relative;
+    top: 100px;
+    font-size: 90px;
+
+}
+
+.stop{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items:center; */
+    flex-wrap: wrap;
+    /* max-height: 800px; */
+    max-width: 400px;
+    gap: 20px;
+}
+.stop label {
+    position:relative;
+    top: 250px;
+    left: -10px;
+height: 40px;
+width: 40px;
+/* max-width: 1000px; */
+/* margin-left: 200px; */
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    cursor: pointer;
+}
+.stop label input{
+    /* position: relative; */
+    appearance: none;
+    /* align-items: center; */
+}
+.stop label span{
+    position: absolute;
+    width: 4.5em;
+    height: 4.5em;
+    margin-left: 10px;
+    /* max-width: 1000px; */
+
+    /* background:linear-gradient(#555353,#363535,#303030);
+border: 2px solid #222;
+border-radius: 6px;
+box-shadow: inset 0 5px 1px rgba(0,0,0,0.35),
+0 5px 5px rgba(0,0,0,0.5),
+0 15px 25px rgba(0,0,0,0.35); */
+border-radius: 50%;
+outline: none;
+/* border: 3px #767676 solid; */
+background:linear-gradient(145deg,rgba(241, 217, 208, 0.8),rgba(197, 91, 128, 0.8));
+box-shadow: inset -3px -3px 1px rgba(170, 101, 125, 0.8),
+inset 2px 9px 15px  #daa2b6;
+color:#c73d3d;
+box-shadow: inset 0 -2px 1px rgba(255, 255, 255, 0.35),
+    -2px -5px 0px rgba(251, 251, 251, 0.5),
+    -2px 5px px rgba(239, 231, 231, 0.35);
+    /* box-shadow: 0 5px 5px #76a3c4,
+    0 0 8px #219cf3; */
+    
+}
+.stop label{
+    margin: 40px;
+    /* margin-right:400px ; */
+}
+.stop label input:checked ~ i{
+    box-shadow: inset 0 5px 1px rgba(0,0,0,0.35),
+0 5px 5px rgba(0,0,0,0.5),
+0 15px 25px rgba(0,0,0,0.35);
+    
+}
+.stop label   i{
+    position: relative;
+    z-index: 10;
+    font-size: 23px;
+    color: #f9f6f6;
+    align-items: center;
+
+}
+.stop label input:checked ~ a {
+    /* color: #e4d7d7; */
+    text-shadow: 0 5px 5px #383939,
+    0 0 8px #2a2c2e;
+    
+box-shadow:  -2px -2px 30px 20px #f4f2f2,
+    20px 10px 30px #b2a6ac;
+}
+.im a{
+    text-decoration: none;
+    position: relative;
+    top: -200px;
+    left: -40px;
+    margin-left: 90px;
+    /* margin-right: 10px; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* background-color: #ffffff00; */
+    /* background-color: #d5dcdd; */
+    
+    background-image: linear-gradient(
+      to left,
+      rgb(205, 169, 169),
+      rgb(246, 241, 241),
+    white,
+      rgb(220, 188, 188)
+
+   );
+   box-shadow: inset 2px -1px 2px #39363a,
+   inset -2px 0px 0px  #e3e0e3;
+    font-weight: bold;
+    opacity: .2;
+    padding: 8px;
+    /* align-items: center; */
+    /* border:1px solid white; */
+    border-radius: 15px;
+}
+.im a{
+    color: rgb(214, 127, 127);
+    opacity: 1; 
+}
+.im a:hover
+{
+  /* font-size: 20px; */
+  padding: 12px;
+  color:black;
+  /* background-color: white; */
+
+}
+
+  </style>
+    
+    
+        <body>
+            <div class="stop">
+           
+            <label>
+                <input type="radio" name="radio" value="1">
+                <span> </span>
+                <a onclick="digital_restart()"><i class="fa-solid fa-rotate-left"></i></i></a>
+    
+               
+            </label>
+            <label>
+                <input type="radio" name="radio" vaalue="1">
+                <span></span>
+               <a onclick="digital_start()"><i class="fa-solid fa-play" ></i>   </a> 
+            </label>
+    
+    
+            <label>
+                <input type="radio" name="radio" value="1">
+                <span></span>
+                <a onclick="digital_stop()"><i class="fa-solid fa-stop" ></i></a>
+   
+            </label>
+    <div class="im">
+      <h1 id="displayTime"> 15:00</h1>
+      <a href="index.html">pomodoro</a>
+        <a href="short.html">Short break</a>
+        <a href="long.html">Long break</a>
+
+      </div>
+      <script>
+
+let [seconds, minutes] = [59, 14];
+let displayTime = document.getElementById("displayTime");
+let timer = null;
+let alarmRinging = false;
+
+function digital() {
+  if (seconds === 0 && minutes === 0) {
+    clearInterval(timer);
+    playAlarm();
+    return;
+  }
+
+  if (seconds === 0) {
+    seconds = 59;
+    minutes--;
+  } else {
+    seconds--;
+  }
+
+  displayTime.innerHTML = formatTime(minutes) + ":" + formatTime(seconds);
+}
+
+function digital_start() {
+  if (timer !== null) {
+    clearInterval(timer);
+  }
+  timer = setInterval(digital, 1000);
+}
+
+function digital_stop() {
+  clearInterval(timer);
+}
+
+function digital_restart() {
+  clearInterval(timer);
+  [seconds, minutes] = [0, 15];
+  displayTime.innerHTML = "15:00";
+}
+
+function playAlarm() {
+  if (alarmRinging) return;
+  alarmRinging = true;
+  var audio = new Audio('tum_hoinstrumental.mp3');
+  audio.play();
+  audio.onended = function () {
+    alarmRinging = false;
+  };
+}
+
+function formatTime(value) {
+  return value < 10 ? "0" + value : value;
+}
+</script>
+</body>
+</html>
